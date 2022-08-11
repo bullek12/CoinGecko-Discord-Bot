@@ -11,12 +11,12 @@ import aiohttp
 
 load_dotenv()
 
-TOKEN = os.getenv('DISCORD_TOKEN')
-REFRESH_TIMER = os.getenv('REFRESH_TIMER')
-CONTRACT = os.getenv('CONTRACT')
-NAME = os.getenv('NAME')
-CHAIN = os.getenv('CHAIN')
-CURRENCY = os.getenv('CURRENCY')
+TOKEN = os.getenv('MTAwNjk3NjUxMDEwOTk0NTkzNg.GdAdjS.h6WG2WG3l2VaheNKx9DyB-83q559hWBV54rx90')
+REFRESH_TIMER = os.getenv('60')
+CONTRACT = os.getenv('0xdac17f958d2ee523a2206206994597c13d831ec7')
+NAME = os.getenv('USDT')
+CHAIN = os.getenv('ethereum # https://api.coingecko.com/api/v3/asset_platforms')
+CURRENCY = os.getenv('usd')
 
 client = discord.Client()
 
